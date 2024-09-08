@@ -57,7 +57,7 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(chatId, `Assalomu alaykum, Yordamchi botiga xush kelibsiz, bu bot siz bergan har qanday savolga Suniy Intelekt ChatGPT yordamida javob bera oladi.`, option);
     setTimeout(function(){
       bot.sendMessage(chatId, `Iltimos savol-javoblarni boshlash uchun va ChatGPT ga ulanish uchun telefon raqamingiz orqali royxatdan o'ting.`, option)
-    },12000)
+    },100)
   })
 
 
