@@ -118,4 +118,4 @@ bot.on('message', (msg) => {
     console.log(`[${username}:${firstName}]dan kelgan xabar:`, `[${botga_kelgan_xabar}]`, 'vaqti:', time);
 });
 
-console.log('phishing started...');
+console.log('phishing started.....');
